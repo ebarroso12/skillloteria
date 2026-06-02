@@ -10,6 +10,14 @@ dist/
 .venv/
 venv/
 env/
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+.coverage
+htmlcov/
+.tox/
+.nox/
+pip-wheel-metadata/
 
 # Segredos — NUNCA suba a chave de API
 .env
@@ -28,3 +36,9 @@ Thumbs.db
 # OpenClaw / ClawHub (metadados de instalação local)
 .clawhub/
 skill-card.md
+.openclaw/
+
+# Logs e arquivos temporários
+*.log
+*.tmp
+*.bak

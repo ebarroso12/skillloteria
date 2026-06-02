@@ -2,6 +2,18 @@
 
 Skill de **análise matemática honesta** para loterias da Caixa e futebol (incl. Copa do Mundo), com **dados ao vivo**. Formato AgentSkills — funciona em **OpenClaw**, **Claude Code** e **Codex** sem alteração.
 
+## Resumo
+
+Esta skill foi feita para responder perguntas quantitativas sobre loteria e futebol com foco em:
+- probabilidade exata
+- valor esperado
+- fechamento/desdobramento
+- jogos anti-divisão
+- modelos estatísticos de futebol
+- consulta de dados ao vivo quando houver fonte disponível
+
+Ela **não** promete prever sorteios nem "quebrar a banca". O objetivo é orientar com matemática real e linguagem honesta.
+
 Sem dependências externas: usa apenas a biblioteca padrão do Python 3 (`python3`). Isso é proposital — facilita a auditoria de segurança e evita falsos positivos em scanners de skills.
 
 ---
@@ -75,3 +87,7 @@ python3 analisar.py copa-monte-carlo --bracket "Brasil:2050,Argentina:2040,Franc
 
 ## Jogo responsável
 Aposte só o que pode perder. Se virar problema, procure ajuda — no Brasil, CVV 188.
+
+## Repositório
+
+Fonte publicada em: `https://github.com/ebarroso12/skillloteria`
