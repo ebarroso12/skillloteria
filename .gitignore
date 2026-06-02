@@ -1,0 +1,30 @@
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+build/
+dist/
+*.egg-info/
+.venv/
+venv/
+env/
+
+# Segredos — NUNCA suba a chave de API
+.env
+*.token
+secrets.json
+
+# Sistema
+.DS_Store
+Thumbs.db
+
+# Editores
+.vscode/
+.idea/
+*.swp
+
+# OpenClaw / ClawHub (metadados de instalação local)
+.clawhub/
+skill-card.md
